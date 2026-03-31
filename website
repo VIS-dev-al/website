@@ -1,1 +1,21 @@
-website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Tutorial Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">Loading tutorials...</div>
+  <script>
+    window.$docsify = {
+      name: 'Tutorial Vault',
+      repo: '', // Link to your GitHub repo here
+      loadSidebar: true, // Create a _sidebar.md file to use this
+      subMaxLevel: 2
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
